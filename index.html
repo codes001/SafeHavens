@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Prince Effiong" />
+    <meta name="description" content="Hotel and guest-house." />
+    <meta property="og:description" content="Hotel and guest house" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:title" content="Safe Havens" />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/fav.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/fav.svg">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/fav.svg">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonaymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Safe Havens || Hotels and Guest House</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="head-top">
+            <div class="site-name">
+                <span>SAFEHAVENS</span>
+            </div>
+            <div class="site-nav">
+                <span id="nav-btn">MENU <i class="fas fa-bars"></i></span>
+            </div>
+        </div>
+        <div class="head-bottom flex">
+            <h2>NICE AND COMFORTABLE PLACE TO STAY</h2>
+            <p>Welcome to SafeHavens. <br> Your comfort, Our pleasure!!</p>
+            <button type="button" class="head-btn">ENJOY!</button>
+        </div>
+    </header>
+    <!-- Mobile NAv -->
+    <div class="sidenav" id="sidenav">
+        <span class="cancel-btn" id="cancel-btn">
+            <i class="fas fa-times"></i>
+        </span>
+
+        <ul class="navbar">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#room">room</a></li>
+            <li><a href="#customers">Customer reviews</a></li>
+        </ul>
+        <button class="btn sign-up">Sign Up</button>
+    </div>
+    <div class="overlay"></div>
+    <!-- Modal -->
+    <div id="modal">
+        <div class="msg"></div>
+        <form id="modal-form">
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="submit" class="modal-submit" value="Book">
+        </form>
+    </div>
+
+    <!-- Main -->
+    <section class="services sec-width" id="services">
+        <div class="title">
+            <h2>Services</h2>
+
+        </div>
+        <div class="services-container">
+            <article class="service">
+
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-utensils"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Food Service</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel officiis pariatur eius eveniet
+                        aspernatur placeat doloribus laboriosam amet, ipsa doloremque, error maxime voluptatum magni
+                        ullam, eum neque sunt fuga! Voluptate impedit animi vero consequatur assumenda, quod a possimus
+                        ipsum vitae ex, aliquid nemo corrupti? Maiores impedit velit commodi voluptatibus officiis?</p>
+                    <button type="button" class="head-btn">Learn more!</button>
+
+                </div>
+            </article>
+            <article class="service">
+
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-swimming-pool"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Refreshment</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel officiis pariatur eius eveniet
+                        aspernatur placeat doloribus laboriosam amet, ipsa doloremque, error maxime voluptatum magni
+                        ullam, eum neque sunt fuga! Voluptate impedit animi vero consequatur assumenda, quod a possimus
+                        ipsum vitae ex, aliquid nemo corrupti? Maiores impedit velit commodi voluptatibus officiis?</p>
+                    <button type="button" class="head-btn">Learn more!</button>
+
+                </div>
+            </article>
+            <article class="service">
+
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-broom"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Housekeeping</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel officiis pariatur eius eveniet
+                        aspernatur placeat doloribus laboriosam amet, ipsa doloremque, error maxime voluptatum magni
+                        ullam, eum neque sunt fuga! Voluptate impedit animi vero consequatur assumenda, quod a possimus
+                        ipsum vitae ex, aliquid nemo corrupti? Maiores impedit velit commodi voluptatibus officiis?</p>
+                    <button type="button" class="head-btn">Learn more!</button>
+
+                </div>
+            </article>
+            <article class="service">
+
+                <div class="service-icon">
+                    <span>
+                        <i class="fas fa-door-closed"></i>
+                    </span>
+                </div>
+                <div class="service-content">
+                    <h2>Room Security</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel officiis pariatur eius eveniet
+                        aspernatur placeat doloribus laboriosam amet, ipsa doloremque, error maxime voluptatum magni
+                        ullam, eum neque sunt fuga! Voluptate impedit animi vero consequatur assumenda, quod a possimus
+                        ipsum vitae ex, aliquid nemo corrupti? Maiores impedit velit commodi voluptatibus officiis?</p>
+                    <button type="button" class="head-btn">Learn more!</button>
+
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <div class="book">
+        <form class="book-form">
+            <div class="form-item">
+                <label for="check-in-date">Check_in Date:</label>
+                <input type="date" id="check-in-date">
+            </div>
+            <div class="form-item">
+                <label for="check-out-date">Check_out Date:</label>
+                <input type="date" id="check-out-date">
+            </div>
+            <div class="form-item">
+                <label for="adult">Adults:</label>
+                <input type="number" id="adult" min="1" value="1">
+            </div>
+            <div class="form-item">
+                <label for="children">Children:</label>
+                <input type="number" id="children" min="1" value="1">
+            </div>
+            <div class="form-item">
+                <label for="rooms">Rooms:</label>
+                <input type="number" id="adult" min="1" value="1">
+            </div>
+
+        </form>
+        <div class="form-item block">
+            <input type="submit" class="btn" value="Book a room!">
+        </div>
+    </div>
+
+
+    <section class="rooms sec-width" id="room">
+        <div class="title">
+            <h2>Offers</h2>
+        </div>
+        <div class="rooms-container">
+            <article class="room">
+                <div class="room-image">
+                    <img src="img/luxury1.jpg" alt="">
+                </div>
+                <div class="room-text">
+                    <h3>
+                        Luxury room
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                   
+                    <p class="rate">
+                        <span>$45.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">Book Now!</button>
+                </div>
+
+            </article>
+
+
+
+            <article class="room">
+                <div class="room-image">
+                    <img src="img/pool.jpg" alt="">
+                </div>
+                <div class="room-text">
+                    <h3>
+                        Swimming Pool
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                  
+                   
+                    <p class="rate">
+                        <span>$489.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">Book Now!</button>
+                </div>
+
+            </article>
+
+
+
+            <article class="room">
+                <div class="room-image">
+                    <img src="img/food.jpg" alt="">
+                </div>
+                <div class="room-text">
+                    <h3>
+                        Quality food
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                    </ul>
+                
+                    <p class="rate">
+                        <span>$235.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">Book Now!</button>
+                </div>
+
+            </article>
+
+
+            <article class="room">
+                <div class="room-image">
+                    <img src="img/wifi.jpg" alt="">
+                </div>
+                <div class="room-text">
+                    <h3>
+                        24/7 Internet connection
+                    </h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li>
+                        <!-- <li>
+                            <i class="fas fa-arrow-alt-circle-right"></i>
+                            Lorem ipsum dolor sit amet.
+                        </li> -->
+                    </ul>
+                   
+                    <p class="rate">
+                        <span>$172.00 /</span> Per Night
+                    </p>
+                    <button type="button" class="btn">Book Now!</button>
+                </div>
+
+            </article>
+        </div>
+    </section>
+
+    <section class="customers" id="customers">
+        <div class="sec-width">
+            <div class="title">
+                <h2>Reviews</h2>
+            </div>
+            <div class="customers-container">
+                <div class="customer">
+                    <div class="rating">
+                        <span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star-half-stroke"></i>
+                        </span>
+                        <h3>We Loved the experience</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis neque mollitia
+                            repudiandae, laudantium exercitationem nostrum, sit ab blanditiis repellat eligendi, quod
+                            culpa sunt laborum doloremque voluptatem fugit nesciunt tempore obcaecati perspiciatis?
+                        </p>
+                        <img src="img/edet.jpg" alt="">
+                        <span>Edet Manchi, Lagos</span>
+                    </div>
+                </div>
+
+                <div class="customer">
+                    <div class="rating">
+                        <span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span>
+                        <h3>Comfortable Living</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis neque mollitia
+                            repudiandae, laudantium exercitationem nostrum, sit ab blanditiis repellat eligendi, quod
+                            culpa sunt laborum doloremque voluptatem fugit nesciunt tempore obcaecati perspiciatis?
+                        </p>
+                        <img src="img/seyi.jpg" alt="">
+                        <span>Gaius Omonale, Uyo</span>
+                    </div>
+                </div>
+                <div class="customer">
+                    <div class="rating">
+                        <span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star"></i>
+                        </span><span>
+                            <i class="fas fa-star-half-stroke"></i>
+                        </span>
+                        <h3>Ventilated environment</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quis neque mollitia
+                            repudiandae, laudantium exercitationem nostrum, sit ab blanditiis repellat eligendi, quod
+                            culpa sunt laborum doloremque voluptatem fugit ?
+                        </p>
+                        <img src="img/prince.jpg" alt="">
+                        <span>Prince Effiong, Abuja</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </secion>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <h2>About Us</h2>
+                <p>SafeHavens provides flawless guest services in a state-of-the-art facility. With no detail being overlooked, we provide high-end customer services for guests.
+                </p>
+                <ul class="social-icons">
+                    <li class="flex">
+                        <i class="fab fa-twitter"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fab fa-instagram"></i>
+                    </li>
+                    <li class="flex">
+                        <i class="fab fa-facebook"></i>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h2>Useful Links</h2>
+                <a href="#">Blog</a>
+                <a href="#">Rooms</a>
+                <a href="#">Subscription</a>
+                <a href="#">Bookings</a>
+            </div>
+            <div>
+                <h2>Privacy</h2>
+                <a href="#">Career</a>
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
+                <a href="#">Services</a>
+            </div>
+
+
+            <div>
+                <h2>Have a question?</h2>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-map-marker-alt"></i>
+                    </span>
+                    <span>
+                        No. 10 Street, Surulere, Lagos, Nigeria.
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-phone-alt"></i>
+                    </span>
+                    <span>
+                        +234885500885
+                    </span>
+                </div>
+                <div class="contact-item">
+                    <span>
+                        <i class="fas fa-envelope"></i>
+                    </span>
+                    <span>
+                        info@safehavens.com
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+
+</html>
